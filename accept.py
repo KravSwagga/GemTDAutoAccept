@@ -12,7 +12,7 @@ while True:
         pyautogui.moveTo(buttonSeeker)
         pyautogui.click(buttonSeeker)
         pyautogui.click(buttonSeeker)
-        pyautogui.moveto(500,500)
+        pyautogui.moveTo(500,500)
     #else:
      #   print('Game start not found')
 
@@ -23,7 +23,7 @@ while True:
         pyautogui.moveTo(buttonSeeker2)
         pyautogui.click(buttonSeeker2)
         pyautogui.click(buttonSeeker2)
-        pyautogui.moveto(500,500)
+        pyautogui.moveTo(500,500)
     #else:
      #   print('Invite not found')
      
@@ -33,6 +33,7 @@ while True:
         pyautogui.moveTo(buttonSeeker3)
         pyautogui.click(buttonSeeker3)
         pyautogui.click(buttonSeeker3)
+        pyautogui.moveTo(500,500)
 
     time.sleep(1)
 #end while
